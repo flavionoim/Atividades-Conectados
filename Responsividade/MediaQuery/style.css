@@ -1,0 +1,61 @@
+h1{
+    color: green;
+}
+
+h2{
+    color: green;
+}
+
+body{
+    background-color: darkslateblue;
+}
+
+
+
+
+/* Celulares */
+@media (max-width: 500px){
+    h1{
+        color: purple;
+    }
+    h2{
+        color: purple;
+    }
+
+    body{
+        background-color: darkgoldenrod;
+    }
+}
+
+
+
+/* Tablets */
+@media (min-width: 750px) and (max-width: 1080px){
+    h1{
+        color: red;
+    }
+    h2{
+        color: red;
+    }
+
+    body{
+        background-color: deepskyblue;
+    }
+}
+
+
+
+
+/* Orientação Horizontal */
+@media (orientation: landscape) {
+    h1{
+        color: blue;
+    }
+    h2{
+        color: blue;
+    }
+
+    body{
+        background-color: chocolate;
+    }
+}
