@@ -1,173 +1,231 @@
+
+
 html {
-    scroll-behavior: smooth;
-    font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
 header {
-    background-color: rgba(255, 255, 0, 0.644);
-    display: flex;
-    margin: 15px;
-    border-radius: 30px;
-    align-items: center;
-    width: 98%;
-    flex-wrap: wrap;
-}
-body {
-    background-color: #F2A922;
-    font-size: 30px;
-}
-.explicacao {
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: 20px;
-    background-color: #bf563fa6;
-    border-radius: 70px;
-    
-}
-.o-que-e {
-    margin-right: 20px;
-}
-#modo-de-jogo {
-    text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-}
-.modos-extras {
-    text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-}
-#parcerias {
-    margin-top: 180px;
-    text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-}
-.godzilla {
-    margin-top: 70px;
-}
-#Brawlers {
-    text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.tabela {
-    text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-footer {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+  background-color: rgba(255, 255, 0, 0.644);
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
 }
 
-@media screen and (max-width: 1020px) {
-    .flex{
+#barra-de-navegacao{
+    list-style-type: none;
+}
+
+#logo-brawl{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+body {
+  background-color: #f2a922;
+  padding: 16px;
+}
+
+.explicacao {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #bf563fa6;
+  border-radius: 70px;
+}
+.o-que-e {
+  margin-right: 20px;
+}
+#modo-de-jogo {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.modos-extras {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+#parcerias {
+  margin-top: 180px;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Brawlers {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#Brawlers img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+#modo-de-jogo img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.modos-extras img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+#melhores-brawlers img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+#parceria-bob-esponja {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#caca-aguas-viva {
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+}
+
+#bob-esponja-skin {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+#sirigueijo-skin {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+#lulamolusco-skin {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+#patrickestrela-skin {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+#plancton-skin {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+#sandybochechas-skin {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+#capa-parceria-godzilla {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#destrua-a-cidade {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+#godzilla-variantes {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+#brock-power-ranger {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#variante-tick1 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#variante-tick2 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#variante-tick3 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#evee-mothra {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+#mecha-guidorah{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+#mothra{
+    width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+@media (max-width: 585px){
+    header{
         flex-direction: column;
     }
 
-
-    #melhores-brawlers img{
-        width: 500px;
-        height: 200px;
-       
+    .explicacao{
+        flex-direction: column;
     }
-
-    .modos-extras{
-        margin-left: 140px;
-    }
-
-    #modo-de-jogo{
-        margin-left: 140px;
-    }
-
-    #Brawlers{
-        margin-left: 140px;
-    }
-
-    .tabela{
-        margin-left: 140px;
-    }
-   #parcerias{
-    margin-left: 140px;
-    font-size: 30px;
-    
-   }
-
-   #parcerias h1{
-    font-size: 35px;
-    
-   }
-
-   #parcerias img{
-    height: 110%;
-    width: 110%;
-    
-   }
-
-   .texto{
-    font-size: 25px;
-    margin-right: 15px;
-    margin-left: 35px;
-   }
-
-   .skinfoto{
-    display: none;
-   }
-   
-   .explicacao {
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: 20px;
-    background-color: #bf563fa6;
-    border-radius: 70px;
-    width: 84%;
-    
-}
-
-header {
-    background-color: rgba(255, 255, 0, 0.644);
-    display: flex;
-    margin: 15px;
-    border-radius: 30px;
-    align-items: center;
-    width: 133%;
-    flex-wrap: wrap;
-   
-}
 }
